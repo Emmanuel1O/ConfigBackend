@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* CSS documento */
+
+
+*{
+    margin:auto;
+    padding:0;
+    box-sizing: border-box;
+
+
+
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    background: rgba(105, 226, 131, 0.931);
+
+
+
+}
+
+.container{
+     width:80%;
+     max-width: 800px;
+     margin: 20px auto;
+     min-height: 600px;
+     background:white;
+     border: 2px solid #939292;
+     padding: 0;
+     box-sizing: border-box;
+    border-radius: 1em;
+
+
+
+}
+
+header{
+    width:100%;
+    padding:1em 0;
+    border-bottom: 2px solid #939292;
+    background: lemonchiffon;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+h1{
+    font-size: 2em;
+    color:#10865F;
+    text-align: center;
+    font-weight: lighter;
+
+}
+
+
+
+
+h2{
+    font-size: 1.3em;
+    color:#5D5D5D;
+    text-align: center;
+    font-weight: lighter;
+
+
+}
+
+nav.menu{
+    width: 100%;
+
+}
+
+nav.menu ul{
+    list-style:none;
+    width: 100%;
+
+
+
+}
+
+nav.menu ul li{
+    float: left;
+    width: 25%;
+
+}
+
+nav.menu ul li a:link, nav.menu ul li a:visited{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 0;
+    background: lightseagreen;
+    color: #fff;
+    border-right: 1px solid #ffff;
+
+}
+
+nav.menu ul li a:hover{
+    background: dodgerblue;
+    
+
+}
+
+.principal{
+    font-size: 1.3em;
+    color: #133AAD;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+.cerrar_sesion{
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    border-top-right-radius: 1em;
+
+}
+
+.cerrar_sesion a:link, .cerrar_sesion a:visited{
+    text-decoration:  none;
+    font-size: 0.8em;
+    color: darkgray;
+    padding: .5em 1em;
+    background: brown;
+    color: #fff;
+    border-top-right-radius: 1em;
+
+}
+
+
+.cerrar_sesion a:hover {
+    background: darkred;
+
+}
+
+footer{
+    width:80%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.9em;
+    text-align:left; 
+    color:blue;
+}
+
+footer .left p{
+    text-align: left;
+    float:left;
+    width: 50%;
+
+}
+
+footer .right{
+    text-align: right;
+    float:right;
+    width: 50%;
+
+}
+
+.clearfix{
+    clear: both;
+
+}
+

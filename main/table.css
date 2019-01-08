@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+
+
+table {
+    width: 90%;
+    border: 1px solid #000;
+    margin:20px auto;
+    font-size:0.9em;
+ }
+ th, td {
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 0;
+    border-collapse:inherit;
+    padding: 0.3em;
+    caption-side: bottom;
+   
+ }
+ caption {
+    padding: 0.3em;
+    color: #fff;
+     background: #000;
+ }
+ th {
+    background: #eee;
+   
+ }
+ 
